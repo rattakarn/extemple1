@@ -40,3 +40,6 @@ Route::get('/user', 'UserController@index');
 Route::get('/user/show/{id}', 'UserController@show');
 Route::get('/user/update/{id}', 'UserController@update');
 
+Route::get('/todo', 'TodoController@index');
+Route::get('/todo/show/{id}', 'TodoController@show');
+Route::get('/todo/delete/{id}', 'TodoController@delete');
